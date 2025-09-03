@@ -31,8 +31,19 @@ const Nav = () => {
 
                 </ul>
 
-                <div>
-                    <a href = "#"className="hover:underline underline-offset-4 ">Sign in  / </a>
+                <div className="hidden max-lg:block">
+                    <img
+                    src={hamburger}
+                    alt ="Hamburger"
+                    width ={25}
+                    height={25}
+                    />
+
+                </div>
+
+
+                <div className="max-lg:hidden">
+                    <a href = "#"className="hover:underline underline-offset-4 ">Sign in /</a>
                     <a href = "#" className="hover:underline underline-offset-4 ">Explore Now</a>
                 </div>
 
